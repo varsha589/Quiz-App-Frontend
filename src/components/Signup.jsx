@@ -18,9 +18,9 @@ const Signup = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Add logic here to handle form submission, e.g., send data to backend
+    
     console.log("Form submitted:", formData);
-    // Reset form fields after submission if needed
+    
     setFormData({
       username: "",
       fullName: "",
